@@ -51,10 +51,10 @@ Merging the training and the test sets to create one data set.
 
 About variables:
 
-x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
-x_data, y_data and subject_data merge the previous datasets to further analysis.
-features contains the correct names for the x_data dataset, which are applied to the column names stored in.
-activityWithLabel reads all the activity Labels data and was used in future analysis.
-mergeTrainTest contains data with both test and train.
-setMeanAndStd has all the mean and Standard Deviation measurement.
-secondDataSet is created from activitylabels, meand&std measurements.
+`x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
+`x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
+features contains the correct names for the `x_data` dataset, which are applied to the column names stored in.
+`activityWithLabel` reads all the activity Labels data and was used in future analysis.
+`mergeTrainTest` contains data with both test and train.
+`setMeanAndStd` has all the mean and Standard Deviation measurement.
+`secondDataSet` is created from activitylabels, meand&std measurements.
